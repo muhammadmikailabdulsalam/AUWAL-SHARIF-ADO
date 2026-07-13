@@ -2,26 +2,121 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Auwal Sharif Ado | Others</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Others | Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
 <style>
-  * { margin:0; padding:0; box-sizing:border-box; }
-  body { font-family: Arial, sans-serif; background:#f307df; color:#1f2937; line-height:1.6; }
-  header { background:#12c5fc; color:#fff; padding:20px; text-align:center; }
-  header h1 { font-size:28px; }
-  header p { color:#0993e2; margin-top:5px; }
-  nav { background:#111827; display:flex; flex-wrap:wrap; justify-content:center; }
-  nav a { color:#fff; text-decoration:none; padding:14px 16px; font-size:14px; }
-  nav a:hover { background:#2dd4bf; color:#111827; }
-  main { max-width:750px; margin:50px auto; padding:0 20px; }
-  h2 { margin-bottom:15px; color:#111827; }
-  h3 { margin-top:25px; margin-bottom:10px; color:#111827; }
-  p { margin-bottom:15px; color:#374151; }
-  .info-box { background:#fff; border-left:4px solid #2dd4bf; padding:15px 20px; margin-top:20px; border-radius:4px; }
-  .section { background:#fff; padding:20px; margin-bottom:20px; border-radius:4px; }
-  ul { margin-left:20px; margin-bottom:15px; }
-  li { margin-bottom:10px; color:#374151; }
-  footer { text-align:center; padding:20px; background:#109648; color:#9ca3af; margin-top:40px; }
+
+*,
+*::before,
+*::after{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Inter',sans-serif;
+    background:#0f1117;
+    color:#e2e8f0;
+    line-height:1.6;
+}
+
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+/* ================= NAVBAR ================= */
+
+header { background:#12c5fc; color:#fff; padding:20px; text-align:center; }
+header h1 { font-size:28px; }
+header p { color:#0993e2; margin-top:5px; }
+
+nav { background:#111827; display:flex; flex-wrap:wrap; justify-content:center; }
+nav a { color:#fff; text-decoration:none; padding:14px 16px; font-size:14px; }
+nav a:hover { background:#2dd4bf; color:#111827; }
+
+nav a.active {
+  color: yellow;
+  border-bottom: 2px solid yellow;
+  padding-bottom: 3px;
+}
+
+/* ================= HEADER ================= */
+
+.page-header{
+    text-align:center;
+    padding:4rem 2rem 2rem;
+}
+
+.page-header h1{
+    font-size:2.3rem;
+    color:#f1f5f9;
+}
+
+.page-header p{
+    color:#64748b;
+    margin-top:.5rem;
+}
+
+.divider{
+    width:60px;
+    height:3px;
+    background:#38bdf8;
+    margin:1.5rem auto 3rem;
+    border-radius:999px;
+}
+
+/* ================= CONTENT ================= */
+
+.container{
+    width:90%;
+    max-width:700px;
+    margin:auto;
+    padding-bottom:4rem;
+}
+
+.card{
+    background:#1e2332;
+    border:1px solid #2d3a52;
+    border-radius:12px;
+    padding:20px;
+    margin-bottom:25px;
+    text-align:center;
+}
+
+.card h3{
+    margin-bottom:15px;
+    color:#f1f5f9;
+}
+
+video,
+iframe{
+    width:100%;
+    border-radius:8px;
+}
+
+audio{
+    width:100%;
+    margin-top:10px;
+}
+
+/* ================= FOOTER ================= */
+
+footer{
+    text-align:center;
+    padding:2rem;
+    border-top:1px solid #1e2332;
+    color:#475569;
+    font-size:.8rem;
+    margin-top: 40px;
+}
+
 </style>
+
 </head>
 <body>
 
@@ -44,47 +139,53 @@
   <a href="contact.html">Contact</a>
 </nav>
 
-<main>
-  <h2>Other Interests & Achievements</h2>
-  
-  <div class="section">
-    <h3>Technical Interests</h3>
-    <p>Beyond my academic curriculum, I am passionate about exploring emerging technologies and development methodologies. I actively participate in hackathons, coding competitions, and community-driven tech meetups to sharpen my skills and stay updated with industry trends.</p>
-    <ul>
-      <li>Web Development Frameworks (React, Vue.js)</li>
-      <li>Mobile App Development</li>
-      <li>Cloud Computing and DevOps</li>
-      <li>Open Source Contributions</li>
-    </ul>
-  </div>
+<div class="page-header">
+    <h1>Others 🎬🎵</h1>
+    <p>Videos, audio clips and other media.</p>
+    <div class="divider"></div>
+</div>
 
-  <div class="section">
-    <h3>Certifications & Achievements</h3>
-    <p>I am committed to continuous learning and professional development. Through various online platforms and institutions, I have completed several courses and earned certifications to complement my university education.</p>
-    <ul>
-      <li>FreeCodeCamp - Responsive Web Design Certification</li>
-      <li>FreeCodeCamp - JavaScript Algorithms & Data Structures</li>
-      <li>Various online coding challenges and project completions</li>
-    </ul>
-  </div>
+<div class="container">
 
-  <div class="section">
-    <h3>Community & Volunteering</h3>
-    <p>I believe in giving back to the community and helping fellow learners on their coding journey. I enjoy mentoring junior students and contributing to open-source projects whenever possible.</p>
-    <ul>
-      <li>Mentoring aspiring programmers</li>
-      <li>Active participation in coding communities</li>
-      <li>Contributing to open-source projects</li>
-    </ul>
-  </div>
+    <div class="card">
+        <h3>My Video</h3>
 
-  <div class="info-box">
-    <strong>Let's Connect!</strong> Have similar interests or want to collaborate? Feel free to reach out through my <a href="contact.html">Contact page</a> or connect with me on professional platforms.
-  </div>
-</main>
+        <video controls>
+            <source src="video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+    </div>
+
+    <div class="card">
+
+        <h3>Short Audio Clip</h3>
+
+        <audio controls>
+            <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+            Your browser does not support the audio tag.
+        </audio>
+
+    </div>
+
+    <div class="card">
+
+        <h3>YouTube Video</h3>
+
+        <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/E4sxmoEYhqg"
+            title="YouTube video"
+            allowfullscreen>
+        </iframe>
+
+    </div>
+
+</div>
 
 <footer>
-  &copy; 2026 Auwal Sharif Ado. Built with HTML &amp; CSS only.
+    &copy; 2026 Auwal Sharif Ado. Built with HTML &amp; CSS only.
 </footer>
 
 </body>
